@@ -21,7 +21,7 @@ A customer/user can perform the following operations:
 ![111](https://github.com/anushaasaad/iRent/blob/main/Frontend/erd.png?raw=true)
 
 ### Normalization tables:
-![111](https://github.com/anushaasaad/iRent/blob/main/Frontend/normalizationtable.png?raw=true)
+!(https://github.com/anushaasaad/iRent/blob/main/Frontend/normalizationtable.png?raw=true)
 
 ##Tools and Technologies
 ###Frontend

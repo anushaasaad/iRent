@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+.content{
+  padding: 12px;
+  height: 3000px;
+}
+.coloring{
+  color: rgb(143, 137, 137);
+}
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width{
+	max-width: 1300vh;
+	padding: 0% 10%; 
+	margin:auto;
+}
+.Hero{
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) );
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 320px;
+
+}
+.Hero .section{
+    margin: 20% 0% 0% 10%;
+    padding:2%;
+    width:30%;
+    font-size: 18px;
+    background-color: #D3E4CD;
+    border-radius: 20px;
+
+}
+blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect;
+  animation: 2s linear infinite condemned_blink_effect;
+}
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+    color:crimson;
+  }
+  30% {
+    visibility: hidden;
+    color:rgb(111, 247, 33);
+  }
+  60% {
+    visibility: visible;
+    color:red;
+  }
+}
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+    color:blue;
+  }
+  30% {
+    visibility: hidden;
+    color:red;
+  }
+  60% {
+    visibility: visible;
+    color:rgb(255, 166, 0);
+  }
+}
+.Hero .section h1{
+  font-size: 28px;
+}
+.Hero .section h1 a{
+  text-decoration: none;
+  list-style: none;
+  color: #001E6C;
+}
+.Hero .section h1 span{
+  color:#001E6C;
+}
+.container{
+  color: black;
+    font-family: 'Vollkorn', serif;
+    background-color: #F0E5CF;
+}
+.container .services{
+    height: 300px;
+    width:100%;
+    align-items: center;
+    text-align: center;
+    background-color: #F0E5CF;
+}
+.container .services .box{
+    display: inline-block;
+    margin: 0px 20px 0px 10px;
+    
+}
+
+.container .services .box .inner h2{
+    font-size: 17px;
+    font-weight: 900;
+}
+.container .services .box .inner p{
+    font-size: 16px;
+}
+.Cars .max-width h2, .destinations .max-width h2,.airbnb .max-width h2, .Form .container h2, #container h2{
+    font-family: 'Ubuntu',sans-serif;
+    margin-top: 35px;
+    color: black;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+  }
+  .Cars .max-width h2 span, .airbnb .max-width h2 span{
+  font-weight: 900;
+  }
+  .Cars h1 , .destinations .max-width h1, .airbnb .max-width h1, .Form .container h1, #container h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color:#334756;
+  }
+  .Cars .max-width h1 span, .destinations .max-width h1 span,.airbnb .max-width h1 span,.Form .container h1 span,#container h1 span{
+   text-align: center;
+   font-weight: 900;
+  }
+  .Cars, .airbnb{
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    
+  }
+  .Cars .carscontent .card{
+    display: inline-block;
+    width: calc(15% -10px);
+    background-color: white;
+    text-align: center;
+    border-radius:6px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    margin-top: 50px;
+    border-color:#E3E8E8;
+    border-style: solid;
+  }
+  .Cars .max-width .carscontent .card .box, .airbnb .max-width .airbnbcontent .card .box{
+  transition: all 0.3 ease;
+  }
+  .Cars .max-width .carscontent .card:hover .box, .airbnb .max-width .airbnbcontent .card:hover .box{
+  transform: scaleX(1.05);
+  }
+  .Cars .max-width .carscontent .card:hover,.airbnb .max-width .airbnbcontent .card:hover{
+    transform: scale(1, 1.1);
+  }
+  .Cars .max-width .carscontent .card img,.airbnb .max-width .airbnbcontent  .card img{
+    background-color:#EBF2FF;
+    padding: 1px;
+  }
+  .Cars .max-width h4, .airbnb .max-width h4{
+    font-size: 13px;
+  }
+  .Cars .max-width .carscontent .card .box .text,.airbnb .max-width .airbnbcontent .card .box .text{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin:10px 0px 7px 0px;
+    font-family: 'Ubuntu',sans-serif;
+
+  }
+  .Cars .max-width .carscontent .card .box .text a, .airbnb .max-width .airbnbcontent .card .box .text a{
+      text-decoration: none;
+  }
+  .Cars .max-width .carscontent, .airbnb .max-width .airbnbcontent{
+    font-size: 14px;
+    margin-top: 0px;
+    color: #656B6B;
+  }
+  .Cars .carscontent .card .box img,.airbnb .airbnbcontent .card .box img{
+    height:120px;
+    width:125px;
+  }
+  .react-calendar__month-view__weekdays {
+    color: gray;
+  }
+  
+  .react-calendar__navigation button {
+    font-size: 1em;
+  }
+  .about{
+    margin:20px;
+  }
+  .about .about-content{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+	font-size:40px;
+	font-style: bold;
+	text-align: center;
+	margin: 50px 0px;
+}
+.about .title::before{
+	position: absolute;
+	bottom: -173px;
+	left: 50%;
+	width: 180px;
+	height: 3px;
+	background-color: #111;
+	transform: translateX(-50%);
+}
+.about .title::after{
+	position: absolute;
+	bottom: -187px;
+	left: 50%;
+	font-size: 20px;
+	padding: 5px;
+	background-color: #ffffff;
+	transform: translateX(-50%);
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+	  height: 500px;
+    width: 900px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+	width: 55%;
+	padding: 25px;
+  background-color: #C8C6C6;
+  border-radius: 10px;
+
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom:10px;
+    color:   black;
+    
+}
+.about .about-content .right .text span{
+    color: #001E6C;
+    font-weight: 700;
+}
+.about .about-content .right p{
+  margin-top: 30px ;
+	text-align: justify;
+	color:656B6B ;
+  font-size: 16px;
+}
+.about .about-content .right a{
+    display: inline-block; 
+    background: #F0A500;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #F0A500;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: #001E6C;
+    background:transparent ;
+}
+.airbnb .max-width h3{
+    font-weight: 500;
+    color: #334756;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.destinations{
+  margin-top: 7%;
+}
+.destinations .max-width img:hover{
+  opacity: 0.8;
+}
+.destinations .max-width img{
+  margin:5px;
+}
+.airbnb .max-width .airbnbcontent .card{
+    display: inline-block;
+    width: calc(20% - 20px);
+    background-color: white;
+    text-align: center;
+    border-radius:6px;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 10px 0px 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    border-color:#E3E8E8;
+    border-style: solid;
+}
+.airbnb .max-width .airbnbcontent  .card img{
+  width:150px;
+}
+.destinations .max-width .card{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.destinations .max-width .card .box #location1{  
+  position: absolute; 
+  top: 0; 
+  right: 170px;
+  width: 100%; 
+}
+.destinations .max-width .card .box #location2{  
+  position: absolute; 
+  top: 0; 
+  right: 140px;
+  width: 100%; 
+}
+.destinations .max-width .card .box #location3{  
+  position: absolute; 
+  top: 0; 
+  right: 400px;
+  width: 100%; 
+}
+.destinations .max-width .card .box #location4{  
+  position: absolute; 
+  top: 0; 
+  right: 150px;
+  width: 100%; 
+}
+.destinations .max-width .card .box #location5{  
+  position: absolute; 
+  top: 0; 
+  right: 180px;
+  width: 100%; 
+}
+.destinations .max-width .card .box #location6{  
+  position: absolute; 
+  top: 0; 
+  right: 400px;
+  width: 100%; 
+}
+.destinations .max-width .card .box h2 span { 
+  font-size: 40px;
+  color: white;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px; 
+}
+.Form .container{
+  background-color: white;
+
+}
+.button{
+  text-align: center;
+}
+.btn{
+  background-color: #F0A500;
+  border: 1px solid #F0A500;
+  width:20%;
+  height: 50px;
+  color: white;
+  border-radius: 0px;
+}
+.btn:hover{
+  font-weight: 300;
+  background-color: transparent;
+  color:#F0A500;
+  border:3px solid #F0A500;
+}
+div#container {
+  text-align: center;
+  height: 50%;
+  background-color: #001E6C;
+  max-width: 100%;
+  font-family: 'Nunito Sans', sans-serif!important;
+  margin: 20px 0px 0px 0px;
+}
+#container h2{
+  color: white;
+  padding: 10px;
+}
+.call, .follow , .visit{
+  background-color: #001E6C;
+  vertical-align: top;
+}
+.skills {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.skills h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ccd0d3;
+  border-bottom: 1px solid #b6babd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-weight:bold;
+  display: inline-block;
+}
+
+.skills ul {
+  margin: 20px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.skills ul li {
+  display: inline-block;
+  margin-left: 55px;
+  margin-top:10px;
+  text-align: center;
+  list-style: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+.skills ul li a,.content,.content a {
+  color:rgba(255, 255, 255, 0.808);
+}
+.follow{
+  background-color:#001E6C ;
+  align-items: center;
+}
+.follow img{
+  width: 48px;
+  height: 40px;
+  margin: 20px 10px;
+}
+.follow img:hover{
+  transform: scaleX(1.09);
+}
+.container .services .box .inner img{
+  width:60px;
+  margin-bottom:5px;
+}
+.visit{
+    width:100%;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.visit ul{
+  width:100%;
+}
+.visit ul li{
+  color:#ffffff;
+  margin-top:20px;
+  margin-right:0px;
+  width:30%;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+  line-height: 26px;
+}
+.visit ul li h3{
+  font-size: 25px;
+  font-weight: 600;
+}

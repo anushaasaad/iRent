@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+.content{
+  padding: 12px;
+  height: 3000px;
+}
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width{
+	max-width: 1300vh;
+	padding: 0px 80px;
+	margin:auto;
+}
+.navbar{
+	position: fixed;
+  height: 65px;
+	width: 100%;
+  z-index: 999;
+	font-family: 'Vollkorn', serif;
+	padding: 7px 0px ;
+	transition: 0.5s;
+  background-color: #001E6C;
+}
+.section-header .max-width h2{
+	color: white;
+}
+.navbar .max-width{
+	display: flex;
+  align-items: center;
+	justify-content: space-between;
+}
+.navbar .max-width h2{
+  font-size: 40px;
+}
+.navbar .max-width h2 span{
+  font-size: 50px;
+  font-weight: 900;
+}
+.Navbar {
+  background-color: #001E6C;
+}
+.menu{
+  margin:0px 40px ;
+}
+.menu a{
+  font-size: 20px;
+  margin:0px 20px;
+}
+.list{
+  color: white;
+}
+.navbar{
+	color: #FFF;
+}
+.list span{
+  color:white;
+	list-style: none;
+	display: inline-block;
+	font-size: 18px;
+  margin:0px 14px;
+}
+.list button{
+	margin-right: 10px;
+  width:180px;
+  font-size: 18px;
+  height: 35px;
+  background-color:#F0A500;
+  color: white;
+  font-weight: 500;
+  border-color:#F0A500;
+  border-radius: 1px;
+  border-width:2px;
+}
+.list button:hover{
+  background-color:transparent;
+  color:white;
+}
+.menu-btn{
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+}

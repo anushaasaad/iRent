@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+.content{
+  padding: 12px;
+  height: 3000px;
+}
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.Carrent{
+	max-width: 100%;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    color:#334756;
+}
+.Carrent .tag{
+	color:#035397;
+	font-size: 18px;
+}
+.max-width{
+	max-width: 1300vh;
+	padding: 0px 80px;
+	margin:auto;
+}
+.Carsrent{
+	max-width: 100%;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    color:#334756;
+}
+.Carsrent .max-width{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    color:#334756;
+	text-decoration: none;
+}
+.Carsrent .tag{
+	color:#035397;
+	font-size: 18px;
+}
+.Carsrent .max-width .carlist{
+	margin:0px 35px 0px 35px;
+	align-items: center;
+	width: 90%;
+}
+.Carsrent .max-width .carlist .outer{
+	display: inline-block;
+	align-items: center;
+	width: 83%;
+	height: 260px;
+	border-radius:6px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    border-color:#E3E8E8;
+    border-style: solid;
+}
+.Carsrent .max-width .carlist .outer .inner{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Carsrent .max-width .carlist .outer .inner .left{
+	width:30%;
+}
+.Carsrent .max-width .carlist .outer .inner .left img{
+	margin-top: 5px;
+	height: 180px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.Carsrent .max-width .carlist .outer .inner .right{
+	width:70%;
+}
+.Carsrent .max-width .carlist .outer .inner .right .text{
+	width:95%;
+}
+.Carsrent .max-width .carlist .outer .inner .right h1{
+	color: #334756;
+	font-size: 40px;
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+	font-weight: 600;
+}
+.Carsrent .max-width .carlist .outer .inner .right h1 span{
+	font-size: 25px;
+}
+.Carsrent .max-width .carlist .outer .inner .right .text .type{
+	margin:10px;
+	display: flex;
+    flex-wrap: wrap;
+	font-size: 18px;
+	margin-left:5px;
+}
+.Carsrent .max-width .carlist .outer .inner .right .text .type img{
+	width:40px;
+}
+.Carsrent .max-width .carlist .outer:hover .inner{
+	transform: scaleX(1.02);
+	}
+.Carsrent .max-width .carlist .outer:hover{
+	  transform: scale(1, 1.01);
+	  background-color: rgb(233, 239, 250);
+	}
+.Carsrent .max-width .carlist .outer .inner .price{
+	border-top:#cbced1 1px solid ;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	font-size: 18px;
+	margin: 15px 10px 10px 10px;
+	align-items: center;
+}
+.Carsrent .max-width .carlist .outer .inner .price p{
+	margin:10px 10px;
+	font-size: 15px;
+}
+.Carsrent .max-width .carlist .outer .inner .price p span{
+	margin:10px 10px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-weight: 800;
+}
+.Carsrent .max-width .carlist .outer .inner .price h6{
+	margin:10px 190px;
+	color: green;
+	font-size: 18px;
+}
+.btn{
+	background-color: #F0A500;
+	border: 1px solid #F0A500;
+	width:150px;
+	height: 40px;
+	color: white;
+	border-radius: 0px;
+  }
+  .btn:hover{
+	font-weight: 300;
+	background-color: transparent;
+	color:#F0A500;
+	border:3px solid #F0A500;
+}
+/*Filter buttons */
+.filter{
+	width:80%;
+	margin:20px 40%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+.filter .drop{
+	margin:0px 0px 0px 3px;
+}
+.filter .filterbtn{
+	margin:20px 30%;
+	font-size: 16px;
+	background-color: #678983;
+	border-radius: 30px;
+	border: 3px solid #101010;
+	width:150px;
+	height: 40px;
+}
+.filter .filterbtn:hover{
+	font-weight: 400;
+	background-color: transparent;
+	color:#101010;
+	border:3px solid #101010;
+}
+/*Checkout style */
+.checkout{
+	margin: 33px 20px;
+	width:100%;
+}
+.checkout .max-width h1{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.checkout .max-width .Carsrent{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    color:#334756;
+	text-decoration: none;
+	display: flex;
+    flex-wrap: wrap;
+}
+.checkout .max-width .Carsrent .tag{
+	color:#035397;
+	font-size: 18px;
+}
+.checkout .max-width .Carsrent .carlist{
+	margin:0px 35px 0px 35px;
+	align-items: center;
+	width: 60%;
+}
+.checkout .max-width .Carsrent .carlist .outer{
+	display: inline-block;
+	align-items: center;
+	width: 90%;
+	height: 260px;
+	border-radius:6px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    border-color:#E3E8E8;
+    border-style: solid;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .left{
+	width:20%;
+}
+.checkout .max-width .Carsrent  .carlist .outer .inner .left img{
+	margin-top: 5px;
+	height: 140px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .right{
+	width:70%;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .right .text{
+	width:75%;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .right h1{
+	color: #334756;
+	font-size: 30px;
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+	font-weight: 600;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .right .text .type{
+	margin:10px;
+	display: flex;
+    flex-wrap: wrap;
+	font-size: 17px;
+	margin-left:5px;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .right .text .type img{
+	width:20px;
+}
+
+.checkout .max-width .Carsrent .carlist .outer .inner .price{
+	border-top:#cbced1 1px solid ;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	font-size: 18px;
+	margin: 15px 10px 10px 10px;
+	align-items: center;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .price p{
+	margin:10px 10px;
+	font-size: 15px;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .price p span{
+	margin:10px 10px;
+	margin-left:450px;
+	font-size: 25px;
+	font-weight: 800;
+}
+.checkout .max-width .Carsrent .carlist .outer .inner .price h6{
+	margin:10px 190px;
+	color: green;
+	font-size: 18px;
+}
+/*checkout form */
+.checkout .max-width .checkoutform{
+	margin:0% 73px;
+	width: 60%;
+}
+.checkout .max-width .checkoutform h1{
+	margin: 15px 20px 10px 15px;
+	font-size: 25px;
+}
+.checkout .max-width .checkoutform  .card{
+	width: 90%;
+	border: 3px solid #E3E8E8;
+	margin:10px 0px;
+}
+.checkout .max-width .checkoutform .card .box{
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+.checkout .max-width .checkoutform .card .box .form{
+	width: 60%;
+}
+.checkout .max-width .checkoutform .card .box .form label{
+	margin:10px 10px 10px 10px;
+}
+.checkout .max-width .checkoutform .card .box .form .text{
+	margin:0px 10%;
+}
+.checkout .max-width .checkoutform .card .box .text1{
+	margin:10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.checkout .max-width .checkoutform .card .box img{
+	margin:10px 10px 10px 10px;
+	width:35px;
+}
+.checkout .max-width .checkoutform .card .box .text{
+	margin:10px 10px 10px 10px;
+}
+.checkout .max-width .Carsrent .calculate{
+	width:30%;
+	margin:20px 0px;
+}
+.checkout .max-width .Carsrent .calculate .card{
+	border: 3px solid #E3E8E8;
+}
+.checkout .max-width .Carsrent .calculate .card .box .text1{
+	font-size: 20px;
+}
+.checkout .max-width .Carsrent .calculate .card .box .pricing{
+	font-size: 17px;
+	font-weight: 400;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between ;
+	margin:20px;
+}
+.checkout .max-width .Carsrent .calculate .card .box .text2{
+	margin:10px 6px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 400;
+}

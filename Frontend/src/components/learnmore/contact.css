@@ -1,0 +1,75 @@
+.meh {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+.Form .container h1{
+    margin:3% 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+form input[type="submit"]
+{
+	color: white;
+    padding: 7px;
+	background: #F0A500;
+	font-size: 18px;
+    font-weight: 500;
+	text-align: center;
+	font-style: normal;
+	border: 2px solid #F0A500;
+    border-radius: 0PX;
+    width:200px;
+}
+form input[type="submit"]:hover
+{
+    border: 2px solid #F0A500;
+    color: #F0A500;
+	background: white;
+}
+
+.container .container_2 {
+    background-color: #C8E3D4;
+    flex: 1;
+    border-radius: 14px;
+    width: 50%;
+    height: 350px;
+    padding: 30px;
+    color: black;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 23%;
+    text-align: center;
+}
+
+.container .container_2 h4 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container .container_2 h5 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.container .container_2 .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container .container_2 img {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}

@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Database Management for Car Rental and Accomodation Website
+### Problem Statement:
+In today’s world, every task from as small as grocery shopping to as complex as education is performed online. Renting cars for trips and renting airbnbs is also a task that can efficiently be done online. Our website, iRent, will cater to the severe need of AirBnBs and such a service of car rental because of the absence of such a system in place before. With services like Uber/Careem and hotels being expensive, such a system is really a need of time. This triggered our goal of working on this project and developing a fully functional website to eradicate the problems associated with this stream
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Functionalities
+The website will serve two main purposes, i.e. enabling people to make reservations of car(s) for trips and also reserve AirBnBs while visiting cities of Pakistan. AirBnB serve basically means that a customer can rent out an apartment, room or even a house when travelling to some other city. Airbnb expansion is the increased supply of travel accommodations, which could benefit travelers by making travel more affordable. There is evidence that Airbnb increases the supply of short-term travel accommodations and slightly lower prices. Moreover, people can rent out cars for any personal, family, or professional trips wherever they want. The system will keep detailed records of the customers, cars, AirBnBs under the banner along with records of bookings, owners of cars/AirBnBs. The customer can make and/or cancel bookings anytime. 
+Admin can perform the following operations after logging in, 
+-	Add a car information to the table
+-	Add an AirBnb information to the database 
+-	Delete a car/Airbnb information from the database
+-	Update an existing car/Airbnb’s record from the database. 
+A customer/user can perform the following operations: 
+-	Search for cars by model, colour, price. 
+-	Search for Airbnb’s based on location, price, no_of_rooms
+-	Book a car/Airbnb by entering his/her details
+-	Update/modify his booking days 
+-	Cancel a booking that’s been made previously. 
+-	Sign up/register to become a member 
 
-## Available Scripts
+### Entity Relationship Diagram
+![111](https://github.com/anushaasaad/iRent/blob/main/Frontend/erd.png?raw=true)
 
-In the project directory, you can run:
+### Normalization tables:
+![111](https://github.com/anushaasaad/iRent/blob/main/Frontend/normalizationtable.png?raw=true)
 
-### `npm start`
+##Tools and Technologies
+###Frontend
+-	React JS 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###Backend
+Back End was implemented using Nodejs and Express. 
+-	Node js 
+Node js is an open-source, server framework that is used to implement backend development of applications. 
+-	Express
+-	MySQL 
+The database of the system application has been designed and implemented on MySQL workbench.

@@ -1,0 +1,381 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.Airbnb, .AirbnbList{
+	max-width: 100%;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    color:#1c1d1f;
+}
+.max-width{
+	max-width: 100%;
+	padding: 0px 80px;
+	margin:auto;
+}
+.Airbnb .max-width .design{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+}
+.Airbnb .max-width .design .boxes{
+    width: calc(33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Airbnb .max-width .design .boxes h3{
+    font-size: 24px;
+}
+.Airbnb .max-width .design .boxes img{
+    width:18%;
+    border-radius: 80%;
+}
+/*Airbnbs types*/
+.Airbnbtype{
+    margin:10% 0px 10% 0px;
+    align-items: center;
+    
+}
+.Airbnbtype .airbnbcontent .card{
+    display: inline-block;
+	width: calc(25% - 30px);
+    height:30%;
+	background-color: white;
+    font-size: 18px;
+	text-align: left;
+	border-radius:6px;
+    margin: 10px;
+	cursor: pointer;
+	transition: all 0.3 ease;
+    margin-top: 50px;
+    border-color:#E3E8E8;
+    border-style: solid;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Airbnbtype .airbnbcontent  .card .box img{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.Airbnbtype .airbnbcontent  .card .box .text{
+    color: black;
+	font-size: 16px;
+	font-weight: 500;
+    text-align: center;
+	margin:10px 0px 7px 0px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Airbnbtype .airbnbcontent  .card .box .text a{
+    text-decoration: none;
+    color:black;
+}
+.Airbnbtype .airbnbcontent  .card .box .text a:hover{
+    color:blue;
+}
+.Airbnbtype .airbnbcontent  .card .box p{
+    color: black;
+	font-size: 16px;
+	font-weight: 400;
+    text-align: center;
+    color: grey;
+}
+.Airbnbtype .airbnbcontent .card:hover{
+    transform: scale(1, 1.01);
+	background-color: rgb(247, 247, 252);
+}
+/*Feedback*/
+
+.Clients{
+    background-color: white;
+}
+.Clients .max-width h1{
+    font-size: 35px;
+}
+.Clients .max-width h1 span{
+    font-weight: 600;
+
+}
+.Clients .clients-content .card{
+    align-items: center;
+    display: inline-block;
+    font-size: 18px;
+	width: calc(32% - 30px);
+	background-color: white;
+	text-align: center;
+	border-radius:6px;
+	padding: 20px 20px 15px 20px;
+    margin: 10px;
+	cursor: pointer;
+	transition: all 0.3 ease;
+    margin-top: 50px;
+    border-top:#02529e;
+    border-left:white;
+    border-right:white;
+    border-bottom:white;
+    border-style: solid;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Clients .clients-content .card .box p{
+    padding:15px 0px;
+}
+.Clients .clients-content .card:hover .box{
+	transform: scale(1.05);
+}
+.Clients .clients-content .card .box img{
+    margin-top: 15px;
+}
+/*Airbnb's list */
+.filters{
+	width:80%;
+	margin:20px 35%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+.filters .drop{
+	margin:0px 0px 0px 3px;
+}
+
+.Services{
+    width: 100%;
+    text-align: center;
+	color: black;
+	background-color: white;
+    
+}
+.Services .servcontent .card{
+    display: inline-block;
+	width: calc(25% - 30px);
+	background-color: white;
+	text-align: center;
+	border-radius:6px;
+	cursor: pointer;
+	transition: all 0.3 ease;
+    margin-top: 50px;
+    border-color:#E3E8E8;
+    border-style: solid;
+    margin:10px 20px 0px 20px;
+}
+.Services .servcontent .card .box{
+	transition: all 0.3 ease;
+}
+.Services h4{
+    font-size: 15px;
+    color:rgb(90, 86, 86);
+}
+.Services .servcontent .card .box .text{
+    color: black;
+	font-size: 16px;
+	font-weight: 600;
+    margin:10px 0px 7px 0px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.Services .servcontent{
+    font-size: 14px;
+    color: #656B6B;
+}
+.Services .servcontent  .card .box img{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.Services .servcontent  .card .box .button{
+    width:200px;
+    height:40px;
+    background-color: #F0A500;
+    border:2px solid #F0A500;
+    color:white;
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.Services .servcontent  .card .box .button:hover{
+    background-color: white;
+    color:#F0A500;
+}
+/*checkout*/
+.checkout{
+	margin: 33px 20px;
+	width:100%;
+}
+.checkout .max-width h1{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.checkout .max-width .airbnbrent{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    color:#334756;
+	text-decoration: none;
+	display: flex;
+    flex-wrap: wrap;
+}
+.checkout .max-width .airbnbrent .tag{
+	color:#035397;
+	font-size: 18px;
+}
+.checkout .max-width .airbnbrent .airbnblist{
+	margin:0px 35px 0px 35px;
+	align-items: center;
+	width: 60%;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer{
+	display: inline-block;
+	align-items: center;
+	width: 90%;
+	height: 260px;
+	border-radius:6px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    border-color:#E3E8E8;
+    border-style: solid;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .left{
+	width:30%;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .left img{
+	margin-top: 5px;
+	height: 240px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .right{
+	width:70%;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .right .text{
+	width:70%;
+    margin: 30px 0px 0px 0px;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .right .text h3{
+    color: #334756;
+    font-size: 20px;
+	margin: 3px 0px 0px 0px;
+	font-weight: 600;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .right h1{
+    color: #2b3d50;
+    font-size: 40px;
+    margin-top: 40px;
+	margin-left: 130px;
+	font-weight: 600;
+
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .right h4{
+    color:green;
+    font-size:20px ;
+    font-weight: 600;
+    margin: 10px 50px 10px 0px;
+}
+.checkout .max-width .airbnbrent .airbnblist.outer .inner .price{
+	border-top:#cbced1 1px solid ;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	font-size: 18px;
+	margin: 15px 10px 10px 10px;
+	align-items: center;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .price p{
+	margin:10px 10px;
+	font-size: 15px;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .price p span{
+	margin:10px 10px;
+	margin-left:450px;
+	font-size: 25px;
+	font-weight: 800;
+}
+.checkout .max-width .airbnbrent .airbnblist .outer .inner .price h6{
+	margin:10px 190px;
+	color: green;
+	font-size: 18px;
+}
+/*checkout form */
+.checkout .max-width .checkoutform{
+	margin:0% 73px;
+	width: 60%;
+}
+.checkout .max-width .checkoutform h1{
+	margin: 15px 20px 10px 15px;
+	font-size: 25px;
+}
+.checkout .max-width .checkoutform  .card{
+	width: 90%;
+	border: 3px solid #E3E8E8;
+	margin:10px 0px;
+}
+.checkout .max-width .checkoutform .card .box{
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+.checkout .max-width .checkoutform .card .box .form{
+	width: 60%;
+}
+.checkout .max-width .checkoutform .card .box .form label{
+	margin:10px 10px 10px 10px;
+}
+.checkout .max-width .checkoutform .card .box .form .text{
+	margin:0px 10%;
+}
+.checkout .max-width .checkoutform .card .box .text1{
+	margin:10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.checkout .max-width .checkoutform .card .box img{
+	margin:10px 10px 10px 10px;
+	width:35px;
+}
+.checkout .max-width .checkoutform .card .box .text{
+	margin:10px 10px 10px 10px;
+}
+.checkout .max-width .airbnbrent .calculate{
+	width:30%;
+	margin:20px 0px;
+}
+.checkout .max-width .airbnbrent .calculate .card{
+	border: 3px solid #E3E8E8;
+}
+.checkout .max-width .airbnbrent .calculate .card .box .text1{
+	font-size: 20px;
+}
+.checkout .max-width .airbnbrent .calculate .card .box .pricing{
+	font-size: 17px;
+	font-weight: 400;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between ;
+	margin:20px;
+}
+.checkout .max-width .airbnbrent .calculate .card .box .pricing .cal{
+	font-size: 20px;
+	font-weight: 600;
+	color:rgb(175, 26, 26);
+}
+.checkout .max-width .airbnbrent .calculate .card .box .text2{
+	margin:10px 6px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 400;
+}

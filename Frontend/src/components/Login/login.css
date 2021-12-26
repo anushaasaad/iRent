@@ -1,0 +1,30 @@
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width{
+	max-width: 1300vh;
+	padding: 0px 80px;
+	margin:auto;
+}
+.login .max-width h2{
+    margin:60px 0px 50px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.login .max-width .form label{
+    text-align: center;
+    margin: 0px 38%;
+    font-weight: 500;
+}
+.login .max-width .form input{
+    margin:10px 0px 10px 0px;
+}
+h3{
+    text-align: center;
+    margin: 30px;
+}

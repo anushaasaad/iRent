@@ -1,0 +1,97 @@
+.checkout .max-width h1{
+	font-size: 25px;
+	font-weight: 600;
+	text-align: center;
+}
+.checkout .max-width h6{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	color: #334756;
+}
+.checkout .max-width .adminform{
+	margin:0% 25%;
+	width: 60%;
+}
+.checkout .max-width .adminform h1{
+	margin: 15px 20px 10px 15px;
+	font-size: 25px;
+}
+.checkout .max-width .adminform  .card{
+	width: 90%;
+	border: 3px solid #E3E8E8;
+	margin:10px 0px;
+}
+.checkout .max-width .adminform .card .box{
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+.checkout .max-width .adminform .card .box .form{
+	width: 60%;
+}
+.checkout .max-width .adminform .card .box .form label{
+	margin:10px 10px 10px 10px;
+}
+.checkout .max-width .adminform .card .box .form .text{
+	margin:0px 10%;
+}
+.checkout .max-width .adminform .card .box .text1{
+	margin:10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.checkout .max-width .adminform .card .box img{
+	margin:10px 10px 10px 10px;
+	width:35px;
+}
+.checkout .max-width .adminform .card .box .text{
+	margin:10px 10px 10px 10px;
+}
+.checkout .max-width .Carsrent .calculate{
+	width:30%;
+	margin:20px 0px;
+}
+.checkout .max-width .Carsrent .calculate .card{
+	border: 3px solid #E3E8E8;
+}
+.checkout .max-width .Carsrent .calculate .card .box .text1{
+	font-size: 20px;
+}
+.checkout .max-width .Carsrent .calculate .card .box .pricing{
+	font-size: 17px;
+	font-weight: 400;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between ;
+	margin:20px;
+}
+.checkout .max-width .Carsrent .calculate .card .box .text2{
+	margin:10px 6px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 400;
+}
+.checkout .max-width .Carsrent .calculate .card .box .pricing .cal{
+	width:30%;
+	font-weight: 700;
+	font-size: 22px;
+	color: #a10404;
+}
+/*Admin styling */
+.Admin{
+	width: 100;
+	align-items: center;
+}
+.Admin .module ul li{
+	list-style-type: none;
+}
+.Admin .module Button{
+	margin: 20px 47%;
+	align-items: center;
+	display: inline-block;
+	border-radius: 0px;
+	border: 2px solid #F0A500;
+	background-color: #F0A500;
+	text-decoration: none;
+}

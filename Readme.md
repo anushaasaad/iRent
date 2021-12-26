@@ -7,6 +7,5 @@
 ![333](https://github.com/anushaasaad/iRent/blob/main/Frontend/ER%20Diagram.PNG?raw=true)
 
 
-### Project README: <a href="https://github.com/Uppalapa/Database-Projects/blob/master/DBMS%20Retail%20Application/README.md"/>README</a>
-### Project Link: <a href="https://github.com/Uppalapa/Database-Projects/blob/master/DBMS%20Retail%20Application/SQLQueries%2CTriggers%2CStoredProcedures%2CViews.sql"/>PROJECT CODE</a>
-### Result Report: <a href="https://github.com/Uppalapa/Database-Projects/blob/master/DBMS%20Retail%20Application/Result%20report.docx"/>REPORT</a>
+### Project README: <a href="Frontend/README.md"/>README</a>
+### Project Link: <a href="Backend/server.js"/>PROJECT CODE</a>

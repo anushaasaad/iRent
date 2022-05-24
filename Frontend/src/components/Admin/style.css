@@ -83,15 +83,36 @@
 	width: 100;
 	align-items: center;
 }
+.Admin .module ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 25%;
+}
+
 .Admin .module ul li{
+	margin:0% 5%;
 	list-style-type: none;
 }
 .Admin .module Button{
-	margin: 20px 47%;
+	margin: 20px 0%;
 	align-items: center;
-	display: inline-block;
 	border-radius: 0px;
 	border: 2px solid #F0A500;
 	background-color: #F0A500;
 	text-decoration: none;
 }
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding:10px 30px;
+	text-align: center;
+	margin:0% 25%;
+  }
+  
+  tr:nth-child(even) {
+	background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+	background-color: rgba(150, 212, 212, 0.4);
+  }

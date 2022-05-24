@@ -6,6 +6,7 @@ import { Carousel } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import Airbnbupdate from './Airbnbupdate.js';
 import Airbnbdelete from './airbnbdelete.js';
+import Header from '../../header.js'
 import {
     BrowserRouter as Router,
     Route,
@@ -19,6 +20,8 @@ function Airbnbbooking() {
         navigate.push('./Managebooking');
     }
     return (
+        <div>
+            <Header />
         <Router>
         <div className="Admin">
             <div className="module">
@@ -41,6 +44,7 @@ function Airbnbbooking() {
                     <Button style={{margin:"30px"}} onClick={move}> Back to Manage</Button>
     </div>
     </Router>
+    </div>
     )
 };
 export default Airbnbbooking;

@@ -6,6 +6,7 @@ import { Carousel } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import CarUpdate from './CarUpdate.js';
 import Cardelete from './cardelete.js';
+import Header from '../../header.js'
 import {
     BrowserRouter as Router,
     Route,
@@ -19,6 +20,8 @@ function Carbooking() {
         navigate.push('./Managebooking');
     }
     return (
+        <div>
+        <Header/>
         <Router>
         <div className="Admin">
             <div className="module">
@@ -41,6 +44,7 @@ function Carbooking() {
     <Button style={{margin:"30px"}} onClick={move}> Back to Manage</Button>
     </div>
     </Router>
+    </div>
     )
 };
 export default Carbooking;

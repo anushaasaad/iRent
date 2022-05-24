@@ -13,6 +13,7 @@ import { useState ,useEffect}  from "react";
 import {useParams} from 'react-router-dom';
 import { useHistory } from 'react-router';
 import Axios from "axios";
+import Header from '../../header.js'
 
 function Checkout(props) {
     let navigate = useHistory();
@@ -140,6 +141,8 @@ function Checkout(props) {
         setcardno(value);
       };
     return (
+        <div>
+            <Header />
         <div className="checkout">
             <div className="max-width">
             <h1>Checkout</h1>
@@ -246,6 +249,7 @@ function Checkout(props) {
                 <Button variant="btn btn-success" style={{marginLeft:"70%"}} onClick={Checking}>Book Airbnb</Button>
             </div>   
          </div>
+     </div>
      </div>
     )
 }

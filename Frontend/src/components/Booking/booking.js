@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import {useState} from 'react';
 import Axios from "axios";
 import { useHistory } from 'react-router';
+import Header from '../../header.js'
 function Booking() {
     const navigate = useHistory();
     const car = () => {
@@ -12,6 +13,8 @@ function Booking() {
         navigate.push('./ManageAirbnb');
     }
     return (
+        <div>
+            <Header />
         <div className="Admin">
             <div className="module">
                             <ul>
@@ -22,6 +25,7 @@ function Booking() {
                         </div>
 
             
+    </div>
     </div>
     )
 };

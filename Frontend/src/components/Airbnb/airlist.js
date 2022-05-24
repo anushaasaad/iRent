@@ -11,6 +11,7 @@ import banglow from './banglow.jpg';
 import banglow2 from './banglows2.jpeg';
 import hotel from './hotel.jpeg';
 import Axios from "axios";
+import Header from '../../header.js'
 import './airbnb.css';
 export default function Airlist() {
     const type = useParams();
@@ -114,6 +115,8 @@ export default function Airlist() {
             }
         }
     return (
+        <div>
+            <Header />
         <div className='AirbnbList'>
             Select the Best Suited Rentals for you.
         <div className="filters">
@@ -153,6 +156,7 @@ export default function Airlist() {
                 : ""}
                 </div>
             </div>
+        </div>
         </div>
     )
 }

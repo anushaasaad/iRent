@@ -23,11 +23,11 @@ A customer/user can perform the following operations:
 ### Normalization tables:
 ![111](https://github.com/anushaasaad/iRent/blob/main/Frontend/normalizationtable.png?raw=true)
 
-##Tools and Technologies
+## Tools and Technologies
 ###Frontend
 -	React JS 
 
-###Backend
+### Backend
 Back End was implemented using Nodejs and Express. 
 -	Node js 
 Node js is an open-source, server framework that is used to implement backend development of applications. 

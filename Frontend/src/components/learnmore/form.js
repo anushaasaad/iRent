@@ -7,6 +7,7 @@ import FACEBOOK from './facebook.png';
 import INSTAGRAM from './instagram.png';
 import TWITTER from './twitter.png';
 import SNAPCHAT from './snapchat.png';
+import Header from '../../header.js'
 
 export default function ContactUs() {
 
@@ -22,6 +23,8 @@ export default function ContactUs() {
         e.target.reset()
     }
     return(
+        <div>
+            <Header />
       <div className="Form">
             <div className="container">
             <form onSubmit={sendEmail}>
@@ -68,6 +71,6 @@ export default function ContactUs() {
               </div>
             </div>
         </div>
-        
+        </div>
     );
 };

@@ -18,7 +18,9 @@ import { useHistory } from 'react-router';
 import {useParams} from 'react-router-dom';
 import Axios from "axios";
 import './style.css';
+import PropTypes from 'prop-types';
 import { getFID } from 'web-vitals';
+import Header from '../../header.js'
 
 function Checkout(props) {
     let no_plate = useParams();
@@ -51,7 +53,7 @@ function Checkout(props) {
         //console.log(Fullname);
         //console.log(Startdate);
         //console.log(Enddate);
-        if(contact.length<11 || cnic.length<13 ){ 
+        if(contact.length<11 || cnic.length<13 || cardno.length == 0){ 
             window.alert("Please fill valid information")
             setinvalid("Invalid information")
         }else{
@@ -152,6 +154,8 @@ function Checkout(props) {
         setcardno(value);
       };
     return (
+        <div>
+        <Header />
         <div className="checkout">
             <div className="max-width">
             <h1>Checkout</h1>
@@ -268,11 +272,11 @@ function Checkout(props) {
                         <div className="form">
                             <label for="holdername" class="col-sm-5 col-form-label text" >Cardholder's name:</label>
                             <div className="col-8 form-group pt-2 mx-auto">
-                                <input type="text" className="form-control" value={holder} onChange={handleChangeholder} name="requiredField"/>
+                                <input required  type="text" className="form-control" value={holder} onChange={handleChangeholder} name="requiredField"  />
                             </div>
                             <label for="cardno" class="col-sm-5 col-form-label text">Card Number:</label>
                             <div className="col-8 form-group pt-2 mx-auto">
-                                <input type="text" placeholder="XXXXXXXXXXXXX" className="form-control"  value={cardno} onChange={handleChangecardno} name="requiredField"/>
+                                <input required  type="text" placeholder="XXXXXXXXXXXXX" className="form-control"  value={cardno} onChange={handleChangecardno} name="requiredField"  />
                             </div>
                         </div>
                         </div>
@@ -287,6 +291,11 @@ function Checkout(props) {
             </div> 
          </div>
      </div>
+     
+  </div>
     )
 }
+Checkout.propTypes = {
+    setToken: PropTypes.func.isRequired
+  }
 export default Checkout;

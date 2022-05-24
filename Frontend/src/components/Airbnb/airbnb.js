@@ -15,6 +15,7 @@ import Feedback from './feedback.js';
 import './airbnb.css';
 import Axios from "axios";
 import {DropdownButton , Dropdown} from 'react-bootstrap';
+import Header from '../../header.js'
 function Airbnblist() {
     const navigate = useHistory();
     const [FetchData,setData] = useState("");
@@ -45,6 +46,8 @@ function Airbnblist() {
     }
 
     return (
+        <div>
+            <Header />
         <div className="Airbnb">
                 Why travellors love renting Vacation Rentals
             <div className="filter"></div>
@@ -90,6 +93,7 @@ function Airbnblist() {
                     </div>
                 <Feedback />
                 </div>
+            </div>
             </div>
     )
 }

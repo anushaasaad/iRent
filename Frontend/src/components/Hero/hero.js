@@ -13,10 +13,11 @@ import image3 from './image3.jpg'
 import Airbnbtype from './Airbnbtype.js';
 import Airbnbdestinations from './Airbnbdestinations';
 import Contactpath from './contactusPath.js';
-
+import Header from '../../header.js'
 function hero() {
     return (
         <div>
+        <Header />
         <div className="Hero">
             <div className="section">
             <BackgroundSlider images={[image1, image2, image3]} duration={3} transition={2} style={{height:'100px'}}/>
